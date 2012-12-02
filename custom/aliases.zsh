@@ -18,12 +18,10 @@ alias ,sv='source ~/.zshrc'
 alias ,ev='vim ~/.zshrc'
 alias ,cv='< ~/.zshrc'
 
-alias ll='ls -la'
+alias ll='ls -laF'
 alias l='ls -l'
 
-# git corrections
-
-alias gst='git status --ignore-submodules'
+alias c='pygmentize -O style=monokai -f console256 -g'
 
 # prevent autojump correction
 alias j='nocorrect j'
