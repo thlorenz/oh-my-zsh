@@ -20,3 +20,10 @@ alias ,cv='< ~/.zshrc'
 
 alias ll='ls -la'
 alias l='ls -l'
+
+# git corrections
+
+alias gst='git status --ignore-submodules'
+
+# prevent autojump correction
+alias j='nocorrect j'
