@@ -17,3 +17,6 @@ alias ackjs='ack --ignore-dir .svn --ignore-dir node_modules --ignore-dir build'
 alias ,sv='source ~/.zshrc'
 alias ,ev='vim ~/.zshrc'
 alias ,cv='< ~/.zshrc'
+
+alias ll='ls -la'
+alias l='ls -l'
